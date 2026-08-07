@@ -1,0 +1,13 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+
+# Reproducible pipeline outputs (generated from source attachments)
+C题 面向算电协同的多目标调度优化研究/processed/
+C题 面向算电协同的多目标调度优化研究/reports/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
