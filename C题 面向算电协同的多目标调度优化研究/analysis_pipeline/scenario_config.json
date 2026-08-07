@@ -1,6 +1,0 @@
-{
-  "description": "问题四的参数化情景。所有参数只用于生成派生情景数据，不修改附件原始数据。",
-  "carbon_budget_ratios": [1.0, 0.9, 0.8],
-  "price_spread_factors": [1.0, 0.5, 1.5],
-  "renewable_scale_factors": [1.0, 0.8, 1.2]
-}

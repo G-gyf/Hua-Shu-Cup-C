@@ -1,0 +1,4 @@
+﻿TaskType,feasible_region_min,feasible_region_mean,feasible_region_max
+AITraining,6,6.0,6
+BatchInference,5,5.679129030328408,6
+RealTimeInference,1,2.8731164793111694,3

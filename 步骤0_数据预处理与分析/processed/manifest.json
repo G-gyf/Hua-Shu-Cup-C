@@ -1,0 +1,120 @@
+{
+  "generated_at_utc": "2026-08-07T12:34:06.419565+00:00",
+  "python": "3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "raw_directory": "C:\\Users\\lenovo\\Desktop\\华数杯\\附件数据",
+  "source_files": [
+    {
+      "file": "GPU_information.xlsx",
+      "sha256": "68f978ff242da0bab54259283f647c7552693acf6db5e2212ff4e10f6a5d5d2f",
+      "sheets": [
+        {
+          "sheet": "GPU中心基础情况",
+          "rows": 7,
+          "columns": 11
+        },
+        {
+          "sheet": "字段说明",
+          "rows": 13,
+          "columns": 5
+        }
+      ]
+    },
+    {
+      "file": "network_latency.xlsx",
+      "sha256": "f7e16fc33d8c188b0889e358497e0d96451e04c77ce765a667a50488f02ac157",
+      "sheets": [
+        {
+          "sheet": "network_latency",
+          "rows": 37,
+          "columns": 4
+        },
+        {
+          "sheet": "字段说明",
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "sheet": "时延矩阵",
+          "rows": 7,
+          "columns": 7
+        },
+        {
+          "sheet": "模型说明",
+          "rows": 4,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "file": "power_mapping.xlsx",
+      "sha256": "a5bea2b708cc4e5586e59bfd832b8dde7b629d212fcd8c3a0f132c03163ae39e",
+      "sheets": [
+        {
+          "sheet": "任务功率映射",
+          "rows": 4,
+          "columns": 3
+        },
+        {
+          "sheet": "计算口径",
+          "rows": 6,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "file": "region_time_data.xlsx",
+      "sha256": "0386a1f6ae825fc4e9797528545090863817b73154050f3ba7a1068e456d55ba",
+      "sheets": [
+        {
+          "sheet": "region_time_data",
+          "rows": 14443,
+          "columns": 26
+        },
+        {
+          "sheet": "字段说明",
+          "rows": 27,
+          "columns": 4
+        }
+      ]
+    },
+    {
+      "file": "storage_information.xlsx",
+      "sha256": "ff5384eb6e955079766b22432e630dfdec9f347f11cd334d950716b21692b3e4",
+      "sheets": [
+        {
+          "sheet": "storage_information",
+          "rows": 7,
+          "columns": 13
+        },
+        {
+          "sheet": "字段说明",
+          "rows": 14,
+          "columns": 5
+        }
+      ]
+    },
+    {
+      "file": "workload_trace.xlsx",
+      "sha256": "006c0802f4a5a94a94eb7c54f8333091ac860c7d35c9c2c9ad04c68d4f0165ba",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 50001,
+          "columns": 11
+        },
+        {
+          "sheet": "字段说明",
+          "rows": 12,
+          "columns": 5
+        }
+      ]
+    }
+  ],
+  "task_rows": 50000,
+  "region_hour_rows": 14442,
+  "task_hour_profile_rows": 195047,
+  "task_region_eligibility_rows": 300000,
+  "quality_passes": 25,
+  "quality_flags": 1
+}

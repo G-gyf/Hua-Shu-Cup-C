@@ -1,0 +1,4 @@
+﻿split,records,task_count,gpu_demand_sum,gpu_hours_sum
+test,432,538,17449.0,59986.76666666666
+train,42336,48963,1442031.0,4913871.783333333
+validation,432,499,14134.0,46928.1

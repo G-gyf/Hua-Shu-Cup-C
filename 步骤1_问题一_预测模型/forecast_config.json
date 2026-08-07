@@ -1,0 +1,21 @@
+{
+  "random_seed": 20260807,
+  "bootstrap_simulations": 10000,
+  "calibrated_interval_quantiles": {
+    "region_task_type": {
+      "interval80": [0.17, 0.83],
+      "interval95": [0.05, 0.95]
+    },
+    "aggregate": {
+      "interval80": [0.095, 0.905],
+      "interval95": [0.03, 0.97]
+    }
+  },
+  "interval_calibration_basis": "48 rolling 24-hour origins within the training period; target empirical coverage 80% and 95%.",
+  "validation_train_end_hour": 2351,
+  "final_train_end_hour": 2375,
+  "horizon_hours": 24,
+  "candidate_rolling_windows": [24, 168, 336],
+  "rolling_backtest_first_origin": 1199,
+  "rolling_backtest_step_hours": 24
+}

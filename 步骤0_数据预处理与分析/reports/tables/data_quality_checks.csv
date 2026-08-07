@@ -1,0 +1,27 @@
+﻿check,status,failed_count,maximum_error,detail
+TaskID uniqueness,PASS,0,,TaskID must be unique.
+Task missing values,PASS,0,,Task table has no missing cells.
+Task arrival range,PASS,0,,ArrivalHour must be 0-2399.
+Earliest start equals arrival,PASS,0,,Attachment task records use arrival as earliest start.
+Task immediate completion boundary,PASS,0,,Immediate execution must finish no later than the 2406 boundary.
+Region-hour key uniqueness,PASS,0,,"(Region, Hour) must be unique."
+Region-hour coverage,PASS,0,,Expected 14442 records for 6 regions and hours 0-2406.
+Region-time missing values,PASS,0,,Region-time table has no missing cells.
+Latency matrix completeness,PASS,0,,Expected a 6x6 directed matrix.
+Latency key uniqueness,PASS,0,,Each directed pair must appear once.
+Task overlap-duration conservation,PASS,0,0.0,Sum of relative-hour overlaps must equal task duration in hours.
+Task latency feasibility,PASS,0,,Each task must have at least one destination satisfying its MaxLatency_ms.
+Baseline IT split,PASS,0,3.3330005422271825e-07,Verified against the formula in Attachment 1.
+Baseline PUE conversion,PASS,0,5.000000004429239e-05,Verified against the formula in Attachment 1.
+Baseline charge split,PASS,0,0.00010000000001042508,Verified against the formula in Attachment 1.
+Baseline net import,PASS,0,0.00010000000006016307,Verified against the formula in Attachment 1.
+Baseline carbon,PASS,0,7.98300000042218e-05,Verified against the formula in Attachment 1.
+Baseline renewable allocation,PASS,0,0.0002000000000066393,Verified against the formula in Attachment 1.
+Baseline power balance,PASS,0,0.00020000000002085017,Verified against the formula in Attachment 1.
+Baseline SOC minimum,PASS,0,,Checked against storage_information.xlsx.
+Baseline SOC capacity,PASS,0,,Checked against storage_information.xlsx.
+Baseline charge power limit,PASS,0,,Checked against storage_information.xlsx.
+Baseline discharge power limit,PASS,0,,Checked against storage_information.xlsx.
+Baseline grid import limit,PASS,0,,Checked against storage_information.xlsx.
+Baseline grid export limit,PASS,0,,Checked against storage_information.xlsx.
+Baseline SOC recurrence,FLAG,1,0.9999439999999709,Verified against Attachment 1 SOC formula.

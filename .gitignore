@@ -3,8 +3,9 @@ __pycache__/
 *.py[cod]
 
 # Reproducible pipeline outputs (generated from source attachments)
-C题 面向算电协同的多目标调度优化研究/processed/
-C题 面向算电协同的多目标调度优化研究/reports/
+步骤0_数据预处理与分析/processed/
+步骤0_数据预处理与分析/reports/
+步骤1_问题一_预测模型/预测结果/
 
 # Local editor and operating-system files
 .vscode/
