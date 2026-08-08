@@ -1,0 +1,12 @@
+{
+  "active_storage_end_hour": 2405,
+  "terminal_hour": 2406,
+  "epsilon_alphas": [0.25, 0.5, 0.75],
+  "solver_feasibility_tolerance": 1e-7,
+  "lexicographic_relative_tolerance": 1e-8,
+  "lexicographic_absolute_tolerance": 1e-5,
+  "duplicate_relative_tolerance": 1e-6,
+  "duplicate_absolute_tolerance": 1e-4,
+  "sensitivity_price_multipliers": [0.0, 0.5, 1.0, 1.5],
+  "sensitivity_export_multipliers": [0.0, 0.5, 1.0]
+}
