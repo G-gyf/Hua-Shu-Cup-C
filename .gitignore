@@ -6,6 +6,8 @@ __pycache__/
 步骤0_数据预处理与分析/processed/
 步骤0_数据预处理与分析/reports/
 步骤1_问题一_预测模型/预测结果/
+步骤1_问题一_预测模型/基础调度结果/
+步骤1_问题一_预测模型/basic_schedule_long_run.*.log
 
 # Local editor and operating-system files
 .vscode/

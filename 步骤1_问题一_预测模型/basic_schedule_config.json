@@ -1,0 +1,7 @@
+{
+  "main_start_hour": 2376,
+  "main_end_hour": 2399,
+  "settlement_end_hour": 2406,
+  "mip_time_limit_seconds": 1800,
+  "mip_relative_gap": 0.0001
+}
