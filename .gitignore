@@ -8,6 +8,7 @@ __pycache__/
 步骤1_问题一_预测模型/预测结果/
 步骤1_问题一_预测模型/基础调度结果/
 步骤1_问题一_预测模型/basic_schedule_long_run.*.log
+步骤2_问题二_碳感知调度/调度结果/
 
 # Local editor and operating-system files
 .vscode/

@@ -1,0 +1,15 @@
+{
+  "settlement_end_hour": 2406,
+  "carbon_level_count": 4,
+  "renewable_floor_fractions": [0.0, 0.5, 1.0],
+  "batch_wait_weight": 2.0,
+  "training_wait_weight": 1.0,
+  "candidate_start_limit_per_region": 10,
+  "carbon_shadow_price_cny_per_tco2": 200000.0,
+  "renewable_shadow_price_cny_per_mwh": 1000.0,
+  "latency_shadow_price_cny_per_ms": 0.05,
+  "wait_shadow_price_cny_per_hour": 30.0,
+  "local_move_attempts": 25000,
+  "local_swap_attempts": 10000,
+  "random_seed": 20260808
+}
